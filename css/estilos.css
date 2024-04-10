@@ -103,3 +103,17 @@ section p{
         font-size: 0.5em;
 
     }
+#mapa{
+    margin: 0 auto;
+    text-align: center;
+}
+address{
+    text-align: center;
+    margin:0 auto;
+    font-size: 2em;
+}
+p{
+    text-align: center;
+    margin:0 auto;
+    font-size: 2em; 
+}
