@@ -1,0 +1,38 @@
+*{
+    padding: 5px;
+    margin: 5px;
+    background: white;
+    width: 0px auto;
+}
+header,nav,footer,section{
+    width: 90%;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+}
+.tarjeta{
+    display:inline-block; 
+    border: blueviolet 15px solid;
+    margin: 15px;
+    width: 20%;
+    margin-top: 25%;
+    margin-right: 15%;
+}
+.tarjeta img{
+    width: 70%;
+    height: 70%;
+    border: red solid 20px;
+}
+.tarjeta h1{
+    font-size: 2em;;
+}
+.tarjeta p{
+    font-size: 1em;
+}
+.tarjeta:hover{
+    border:blue;
+    margin: 5px;
+    width: 30%;
+cursor: pointer;
+
+}
