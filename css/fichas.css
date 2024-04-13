@@ -11,12 +11,15 @@ header,nav,footer,section{
     text-align: center;
 }
 .tarjeta{
+    float: left;
     display:inline-block; 
-    border: blueviolet 15px solid;
-    margin: 15px;
+    border: blueviolet 10px solid;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+   
     width: 20%;
-    margin-top: 25%;
-    margin-right: 15%;
+    
 }
 .tarjeta img{
     width: 70%;
@@ -35,4 +38,10 @@ header,nav,footer,section{
     width: 30%;
 cursor: pointer;
 
+}
+footer{
+    border-top: 50px;
+    clear: both;
+    display: block;
+    float: left;
 }
