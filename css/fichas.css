@@ -1,8 +1,9 @@
 *{
     padding: 5px;
-    margin: 5px;
-    background: white;
-    width: 0px auto;
+font-size: 14px;    
+    background: #190700;
+    color: #df3a01;
+    margin: 0px auto;
 }
 header,nav,footer,section{
     width: 90%;
@@ -13,7 +14,7 @@ header,nav,footer,section{
 .tarjeta{
     float: left;
     display:inline-block; 
-    border: blueviolet 10px solid;
+    border: #fa8258 10px solid;
     margin-top: 25px;
     margin-right: 15px;
     margin-left: 15px;
@@ -22,26 +23,61 @@ header,nav,footer,section{
     
 }
 .tarjeta img{
-    width: 70%;
-    height: 70%;
-    border: red solid 20px;
+    width: 50%;
+    height: 50%;
+    border: #a5df00 solid 20px;
 }
-.tarjeta h1{
+.tarjeta h2{
     font-size: 2em;;
 }
 .tarjeta p{
     font-size: 1em;
 }
 .tarjeta:hover{
-    border:blue;
+    border:#01df01;
     margin: 5px;
     width: 30%;
 cursor: pointer;
 
+}
+article{
+    display: block;
+    margin: 0 auto;
+    width: 55%;
 }
 footer{
     border-top: 50px;
     clear: both;
     display: block;
     float: left;
+    font-size: 0.5em;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+
+.contenido{
+    float: left;
+    display:inline-block; 
+    border: #fa8258 10px solid;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+   
+    width: 90%;
+    
+}
+.contenido img{
+    width: 50%;
+    height: 50%;
+    border: #a5df00 solid 20px;
+}
+.contenido h2{
+    font-size: 4em;;
+}
+.contenido p{
+    font-size: 1.5em;
 }
