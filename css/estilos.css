@@ -118,7 +118,7 @@ p{
     margin:0 auto;
     font-size: 2em; 
 }
-@media screen and (man-width: 639px){
+@media screen and (max-width: 639px){
 
     *{
 
