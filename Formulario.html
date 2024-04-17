@@ -3,27 +3,35 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="es">
     <head>
+        
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Formulario</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/formulario.css">
     </head>
     <body>
-        <section>
-            <form action="">
-                <h1>Acceso</h1>
+        <div class="contenedor">
+    
+            <h2>Acceso</h2>
+            <form id="formulario" name="formulario" method="GET" action="">
+                <div class="item">
                 <label for="Nombre">nombre</label>
-                <input type="text"><br>
+                <input type="text" id="Nombre" name="nombre" required="true"><br>
+            </div>
+            <div class="item">
                 <label for="Clave">Clave</label>
-                <input type="password"><br>
-                <br><input type="submit"> <br>
+                <input type="password" id="Clave" name="Clave"><br>
+            </div>
+            <div class="botton">
+                <br><input type="submit" value="Entrar"> <br>
+            </div>
             </form>
-        </section>
         
+    </div>
         <script src="" async defer></script>
     </body>
 </html>
