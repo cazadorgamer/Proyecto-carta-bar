@@ -28,12 +28,23 @@ nav li a{
     background-color: pink;
     border-radius: 10px;
     margin:10px;
+    width: 85%;
+    height: 100%;
+    float: left;
 }
 .barra{
     
     
     background-color: blueviolet;
     border-radius:10px; 
+ 
+
+    
+    
+    margin-right: 15px;
+    margin-left: 1300px;
+   
+    width: 20%;
 }
 footer{
     background-color: blueviolet;
