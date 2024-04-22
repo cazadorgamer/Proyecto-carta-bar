@@ -3,24 +3,21 @@
 	padding:0px;
     box-sizing: border-box;
 	/*font-family: 'Playfair Display', serif;*/
-/*	font-family: 'Quicksand', sans-serif;//
-  //  font-size: 10px;*/
+	font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
 }
-main,header,nav,section,article,aside,footer{
-/*	background:#FF5733;
+main{
+	background:#FF5733;
 	color:#FFFFFF;
 	font-size:3em;
 	width:95%;
 	padding:2px;
 	margin:3px 1px;*/
 	display:block;
-/*	border:solid 1px #ccc;
-	border-radius:25px;*/
+	border:solid 1px #ccc;
+	border-radius:25px;
 }
-html{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 62.5%;
-}
+
 header figure{
 	float:left;
 }
