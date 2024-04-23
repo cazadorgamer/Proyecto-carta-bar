@@ -6,14 +6,14 @@
 --colorFuenteSecundario:#ffffff;
 --colorHover:#bdbdbd;
 }
-header section{
+header, section{
     background-color: var(--colorSecundario);
     color: var(--colorFuentePrincipal);
 }
-nav aside footer{
+nav, aside, footer{
     background-color: var(--colorPrincipal);
     color: var(--colorFuenteSecundario);
 }
-nav li a{
+a{
 color: var(--colorFuenteSecundario);
 }

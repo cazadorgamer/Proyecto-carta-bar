@@ -29,42 +29,96 @@ main{
 header{
     
     border-radius: 2rem;
-    
-    margin-top: 10rem;
+    height: 15rem;
+    margin-top: 0.5rem;
     width: 90%;
     height: 20rem;
 }
 
 header h1{
     width: 65%;
-    height: 20rem;
-    margin: 5rem;
-    padding: 5rem;
-    font-size: 1.6rem;
+    height: 10rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 3rem;
     text-align: left;
 }
 
 nav{
-    background-color: blueviolet;
+    height: auto;
+    width: 90%;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
 }
 nav li{
-    display: inline;
-   
-    
-    margin: 10px;
+    list-style: none;
 }
 nav li a{
-    color: white;
+    padding: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8rem ;
+    
 }
-.about{
+section{
+width: 90%;
+padding: 1rem;
+margin-top: 1rem;
+overflow: hidden;
+height: auto;
+border-radius: 2rem;
+}
+
+/*.about{
     background-color: pink;
     border-radius: 10px;
     margin:10px;
     width: 85%;
     height: 100%;
     float: left;
+}*/
+
+article{
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+    overflow: hidden;
+    height: auto;
+    border-radius: 2rem;
 }
-.barra{
+article p{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+
+}
+
+article h2{
+    font-size: 2rem;
+}
+
+aside{
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+aside h3{
+    font-size: 1.8rem;
+
+}
+aside p{
+    font-size: 1.5rem;
+
+}
+aside a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+}
+/*.barra{
     
     
     background-color: blueviolet;
@@ -77,12 +131,14 @@ nav li a{
     margin-left: 1300px;
    
     width: 20%;
-}
+}*/
 footer{
+    width: 90%;
+    height: 5rem;
     background-color: blueviolet;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 1rem;
     font-size: 8px;
     color: white;
 }
