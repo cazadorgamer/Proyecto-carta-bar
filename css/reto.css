@@ -135,10 +135,16 @@ aside a{
 footer{
     width: 90%;
     height: 5rem;
-    background-color: blueviolet;
+ 
     border-radius: 2rem;
     margin: 1rem;
     padding: 1rem;
     font-size: 8px;
-    color: white;
+    
+}
+footer address{
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
