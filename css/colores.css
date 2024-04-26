@@ -17,3 +17,7 @@ nav, aside, footer{
 a{
 color: var(--colorFuenteSecundario);
 }
+a:hover{
+    color: var(--colorFuentePrincipal);
+    background-color:var(--colorHover);
+    }

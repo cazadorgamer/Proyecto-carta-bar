@@ -1,3 +1,14 @@
+:root{
+    /*margenes*/
+
+    --margen:10rem;
+    --padding:10rem;
+
+    /*tamaño fuente*/
+    parrafo:
+    tituloPrincipal:;
+    tituloSecundario:;
+}
 *{
     margin:0 ;
 	padding:0px;
@@ -29,10 +40,13 @@ main{
 header{
     
     border-radius: 2rem;
-    height: 15rem;
+    height: 20rem;
     margin-top: 0.5rem;
     width: 90%;
     height: 20rem;
+    background-image:url('../img/computadora.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header h1{
@@ -55,12 +69,15 @@ nav li{
     list-style: none;
 }
 nav li a{
-    padding: 1rem;
+    padding: 0.9rem;
     margin-left: 1rem;
     text-decoration: none;
     text-align: center;
-    font-size: 1.8rem ;
+    font-size: 1.7rem ;
     
+}
+nav li a{
+    border-radius: 2rem;
 }
 section{
 width: 90%;
