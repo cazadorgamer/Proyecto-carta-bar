@@ -79,6 +79,10 @@ nav li a{
 nav li a{
     border-radius: 2rem;
 }
+nav li a:hover
+{
+    border-radius: 2rem;
+}
 section{
 width: 90%;
 padding: 1rem;
