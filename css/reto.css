@@ -1,17 +1,18 @@
 :root{
     /*margenes*/
 
-    --margen:10rem;
-    --padding:10rem;
+    --margen:12rem;
+    --padding:12rem;
 
     /*tamaño fuente*/
     --parrafo:1.8rem; 
+    --adress:0.7rem
     --tituloPrincipal:3rem;
     --tituloSecundario:2rem;
 }
 *{
     margin:0 ;
-	padding:0px;
+	padding:0;
     
 }
 html{
@@ -121,6 +122,7 @@ article h2{
 }
 
 aside{
+    display: block;
     width: 90%;
     margin: 1rem;
     padding: 1rem;
