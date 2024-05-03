@@ -87,7 +87,7 @@ nav li a:hover
 }
 #contenedor{
     display: flex;
-    align-items: flex-start;
+    flex-wrap: wrap;
 }
 section{
 width: 75%;
@@ -96,6 +96,8 @@ margin-top: 1rem;
 overflow: hidden;
 height: auto;
 border-radius: 2rem;
+flex: 1 0 70%; /* Que la sección ocupe el 70% del ancho disponible */
+    margin-right: 20px;
 }
 
 /*.about{
@@ -133,6 +135,8 @@ aside{
     padding: 1rem;
     border-radius: 2rem;
     height: auto;
+    flex: 1 0 30%; /* Que el aside ocupe el 30% del ancho disponible */
+    margin-top: 20px;
 }
 aside h3{
     font-size: var(--parrafo);
