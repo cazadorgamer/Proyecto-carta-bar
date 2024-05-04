@@ -81,3 +81,34 @@ h2{
 .contenido p{
     font-size: 1.5em;
 }
+nav{
+    text-align: center;
+    margin: 0 auto;
+	font-size:1em;
+	width:95%;
+	padding:2px;
+	margin:3px 1px;
+	text-align:center;
+}
+nav ul{
+	list-style-type:none;
+}
+nav li{
+    
+	display:block;
+	text-align:center;
+	margin:0 15px 0 0;
+}
+nav li a{
+    font-size:1.5em;
+    display: block;
+	padding:2px 7px 2px 7px;
+	
+	background-color:#FFFFFF;
+	border:1px solid #ccc;
+	text-decoration:none;
+}
+nav li a:hover{
+	background:#FF5733;
+	color:#FFFFFF;
+}
